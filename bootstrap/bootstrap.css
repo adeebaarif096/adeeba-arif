@@ -1,0 +1,18 @@
+.container-fluid{
+    background-color: lawngreen;
+    color: black;
+    border: 2px red;
+}
+.container{
+    background-color: lawngreen;
+    color: black;
+    border:2px red;
+}
+.row{
+border: 2px solid red;
+background-color: yellow;
+}
+.column{
+    background-color:blue;
+    color: white;
+}

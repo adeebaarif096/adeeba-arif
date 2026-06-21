@@ -1,0 +1,7 @@
+.carousel-item{
+    height: 570px;
+    object-fit: cover;
+}
+  body{
+    background: lightseagreen;
+  }

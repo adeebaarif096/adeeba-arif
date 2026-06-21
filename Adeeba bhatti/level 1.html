@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: Arial,  sans-serif;
+            background: #f4f7f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .contact-box{
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        .contact-box h2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .contact-box label{
+            text-align: center;
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        .contact-box input,
+           .contact-box textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 8px;
+outline: none;
+font-size: 14px;
+            }
+            .contact-box input:focus,
+            .contact-box textarea:focus{
+                border-color: #4CAF50;
+            }
+            .contact-box button{
+                width: 100%;
+                padding: 12px;
+                margin-top: 15px;
+                background: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 8px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .contact-box button:hover{
+                background: #45a049;
+            }
+        
+
+    </style>
+ <div class="contact-box">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Adeeba">
+<br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="adeebaarif096@gmail.com">
+<br><br>
+        <label for="meassage">Meassage</label>
+        <textarea name="meassage" id="meassage" rows="4" placeholder="Assalamualaikum, My name is 
+        (Adeeba). i am a web development student and i saw your internship program. i am interested in joining your team to improve my skills in HTML,CSS.please let me know about the next steps. thank you so much  (Adeeba)"></textarea>
+<br><br>
+        <button type="submit">Send Meassage</button>
+    </form>
+ </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

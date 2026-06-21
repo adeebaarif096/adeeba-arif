@@ -1,0 +1,38 @@
+.heading{
+    display: flex;
+    justify-content: center;
+color: red;
+background-color: aqua;
+border: 2px red;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.main{
+display: flex;
+justify-content: center;
+}
+.card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.card img{
+width: 200px
+}
+.box{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 7, 109);
+    color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+.box:hover{
+    background-color: yellow;
+}

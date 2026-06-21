@@ -1,0 +1,45 @@
+.parent{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 100px 150px 130px 100px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar content1 content1"
+    "sidebar content2 content3"
+    "footer footer footer"
+    ;
+}
+.header{
+    background-color: hotpink;
+    grid-area: header;
+}
+.sidebar{
+    background-color: lawngreen;
+    grid-area: sidebar;
+}
+.content1{
+    background-color: darkcyan;
+    grid-area: content1;
+}
+.content2{
+    background-color: blue;
+    grid-area: content2;
+}
+.content3{
+    background-color: deepskyblue;
+    grid-area: content3;
+}
+.footer{
+    background-color: black;
+    grid-area: footer;
+}
+.parent > div{
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
